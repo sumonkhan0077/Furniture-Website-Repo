@@ -13,12 +13,12 @@ header {
   font-style: normal;
 }
 .primary-button {
-    background-color: rgb(60, 255, 177);
+    background-color: rgba(61, 61, 61, 0.791);
     border: none;
     margin: 25px;
     padding: 15px 25px ;
     border-radius: 8px;
-    color: rgb(42, 42, 42);
+    color: rgb(255, 255, 255);
     cursor: pointer;
 
 }
@@ -55,6 +55,7 @@ ul li a {
 }
 .icon i {
     margin-right: 15px;
+    font-size: large;
 }
 .banner {
     background-image: url(../images/bench-accounting-nvzvOPQW0gc-unsplash.jpg);
@@ -97,7 +98,7 @@ ul li a {
     height: 550px;
 }
 .row2{
-     margin-top: 200px;
+     margin-top: 100px;
 
 }
 .title {
@@ -115,4 +116,90 @@ ul li a {
 }
 .row2-text {
     margin:  0 20px;
+}
+.suport {
+    max-width: 1140px;
+    height: 500px;
+    margin: 50px auto;
+    text-align: center;
+}
+.suport h3 {
+    font-size: 70px;
+    font-weight: 500;
+}
+.suport p {
+    color: rgba(0, 0, 0, 0.513);
+    padding: 30px;
+}
+.suport-icon {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+.icon-text {
+    width: 280px;
+    height: 240px;
+    border: 1px solid rgba(0, 0, 0, 0.372);
+    text-align: center;
+    align-items: center;
+    font-size: large;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.653);
+}
+.fa-solid {
+    margin: 30% 0 0 0;
+    font-size: xxx-large;
+    color: black;
+}
+.icon-middle {
+    border: none;
+    background-color: rgba(193, 220, 255, 0.432);
+}
+.Popular {
+    text-align: center;
+}
+.Popular h2 {
+    font-size: 60px;
+    padding: 20px;
+    font-weight: 500;
+}
+.Popular p {
+    color: rgba(0, 0, 0, 0.562);
+}
+.reviwe {
+    max-width: 1140px;
+    height: 500px;
+    margin: 50px auto;
+}
+.reviwe-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+
+}
+.reviwe-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reviwe-photo img {
+    width: 300px;
+    height: 400px;
+    border-start-end-radius: 30px;  
+    border-end-start-radius: 30px;
+}
+.starupon {
+    margin: 15px;
+}
+.starupon h4 {
+    color: black;
+    font-size: 22px;
+    font-weight: 450;
+}
+.star i {
+    font-size: small;
+}
+.starupon button {
+    margin-left: 2px;
 }
