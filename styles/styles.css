@@ -196,10 +196,53 @@ ul li a {
     color: black;
     font-size: 22px;
     font-weight: 450;
+    color: rgba(0, 0, 0, 0.571);
 }
 .star i {
     font-size: small;
 }
 .starupon button {
     margin-left: 2px;
+}
+.gallery {
+    max-width: 1140px;
+    height: 500px;
+    margin: 500px auto;
+    text-align: center;
+}
+.gallery h3 {
+    font-size: 50px;
+    font-weight: 500;
+    padding: 50px;
+}
+.gallery-row {
+    display: flex;
+    justify-content: space-between;
+}
+.gallery-1stcoll {
+    text-align: left;
+}
+.gallery-small img {
+    width: 277px;
+    height: 380px
+}
+.gallery-big img {
+    width: 802px;
+    height: 380px;
+}
+.gallery-1stcoll h5 {
+    font-size: larger;
+    padding: 20px;
+}
+.gallery-1stcoll p {
+    padding:0 20px ;
+    color: rgba(0, 0, 0, 0.6);
+}
+.gallery-row2 {
+    max-width: 1140px;
+    height: 500px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 62px;
 }
