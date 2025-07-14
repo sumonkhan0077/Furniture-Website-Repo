@@ -25,9 +25,10 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    /* padding: 20px; */
     padding: 20px;
     align-items: center;
+    max-width: 1285px;
+    margin: 0 auto;
 }
 .logo {
     text-transform: uppercase;
@@ -280,9 +281,37 @@ footer{
     color: white;
 }
 .white-part {
-    background-color: white;
-    max-width: 1230px;
-    height: 332jpx;
+    background-color: rgb(255, 255, 255);
+    max-width: 1220px;
+    height: 332px;
     margin: 20px auto;
     border-radius:25px ;
+}
+.white-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    /* align-items: center; */
+}
+.media {
+    padding-top: 40px;
+}
+.media i {
+    font-size: x-large;
+    margin-right: 25px;
+    color: rgb(255, 255, 255);
+    border: 12px solid black;
+    border-radius: 50%;
+    background-color: black;
+}
+.name-color {
+    color: rgba(0, 0, 0, 0.478);
+    padding: 20px 0;
+    font-size: medium;
+    font-weight: 400;
+    
+}
+.header-name p {
+    padding: 7px 0;
+
 }
